@@ -10,7 +10,7 @@ const [formDetails, setFormDetails] = useState({
         e.preventDefault();
         try{
             console.log("formDetails", formDetails)
-            const response = await fetch(`https://myportfolio-q0an.onrender.com/submit`, {
+            const response = await fetch(`https://portfolio-63sa.onrender.com/submit`, {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
