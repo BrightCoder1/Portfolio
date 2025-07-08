@@ -19,7 +19,6 @@ const Project = () => {
                 }
                 return response.json();
 
-                
             })
             .then((data) => setProjects(data))
             .catch((error) => console.error("Error Fetching Projects: ", error));
