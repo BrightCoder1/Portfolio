@@ -65,7 +65,6 @@ const Home = () => {
                 },
                 "-=0.5"
             )
-            // Start img animation at the same time as button
             .fromTo(
                 imgRef.current,
                 {
@@ -93,7 +92,7 @@ const Home = () => {
                         I'm a <snap className="name">Full Stack Developer.</snap>
                     </h2>
                     <p className="m1-p" ref={paraRef}>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore minima doloremque quo exercitationem. Cum voluptas est vitae harum, ratione veritatis.
+                        I specialize in building dynamic and responsive web applications. With a passion for coding and a keen eye for design, I strive to create seamless user experiences. Whether it's front-end development or back-end integration, I'm dedicated to delivering high-quality solutions that meet client needs.
                     </p>
                     <a href="tel:+916398728427" className="contact" ref={btnRef}>Contact Me!</a>
                 </div>

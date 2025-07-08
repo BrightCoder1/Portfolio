@@ -95,7 +95,7 @@ const Home2 = () => {
                     Developing With a Passion While Exploring The World.
                 </h1>
                 <p className="h2-1-p" ref={perRef}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, saepe necessitatibus maiores ipsa cupiditate doloribus, esse laudantium ea ipsam sit quis fugit rem fugiat sint optio excepturi magni corporis autem sequi ipsum perferendis eos facilis.
+                    That sounds great! Here's a portfolio title suggestion for you: "Developing With a Passion: Crafting Seamless User Experiences While Exploring The World". It reflects your dedication to coding, design, and creating high-quality web applications. How does that sound for your portfolio?
                 </p>
                 <a href="" className="h2-1-tag" ref={btnContact}>Contact Me!</a>
             </div>

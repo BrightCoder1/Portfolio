@@ -18,6 +18,8 @@ const Project = () => {
                     throw new Error(`HTTP error! Status: ${response.status}`);
                 }
                 return response.json();
+
+                
             })
             .then((data) => setProjects(data))
             .catch((error) => console.error("Error Fetching Projects: ", error));
