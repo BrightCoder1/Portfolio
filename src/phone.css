@@ -132,7 +132,7 @@
     }
 
     .home2 {
-        margin-top: 4rem;
+        margin-top: 6rem;
         flex-direction: column;
         gap: 6rem;
         align-items: center;
@@ -155,7 +155,8 @@
     }
 
     .m1-p {
-        width: 83%;
+        width: 84%;
+        font-size: 15px;
     }
 
     .h2-1-h {
@@ -168,6 +169,15 @@
 
     .form {
         height: 65vh;
+    }
+
+    .h2-1-h {
+        font-size: 2rem;
+    }
+
+    .s-card {
+        width: 107px;
+        height: 159px;
     }
 }
 

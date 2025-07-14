@@ -138,6 +138,12 @@ body {
   transition: 0.3s;
 }
 
+.main-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .contact:hover {
   background-color: #a2072e;
 }
@@ -145,7 +151,7 @@ body {
 .m2-img {
   width: 100%;
   transition: 0.4s;
-  filter: drop-shadow(0px 0px 6px #a2a0a0);
+  /* filter: drop-shadow(0px 0px 6px #a2a0a0); */
 }
 
 .m2-img:hover {
