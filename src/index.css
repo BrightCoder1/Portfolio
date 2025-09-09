@@ -142,6 +142,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 500px;
 }
 
 .contact:hover {
@@ -153,6 +154,8 @@ body {
   transition: 0.4s;
   /* filter: drop-shadow(0px 0px 6px #a2a0a0); */
 }
+
+
 
 .m2-img:hover {
   transform: scale(1.05);
