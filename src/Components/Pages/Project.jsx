@@ -65,12 +65,15 @@ const Project = () => {
                             <div className="p-card-box">
                                 <img className="p-card-img" src={project.projectimg} alt="" />
                                 <div className="hover-p">
-                                    <a href={project.sourcecode} className="hover-p-tag">
-                                        Source Code
-                                    </a>
-                                    <a target="_blank" href={project.livelink} className="hover-p-tag">
-                                        Live
-                                    </a>
+                                    <p className="hover-p-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore aut consectetur libero accusantium quia cum in doloremque aliquam odit beatae minima cupiditate eaque perferendis, totam nobis debitis animi quaerat ipsam.</p>
+                                    <div className="hover-flex">
+                                        <a href={project.sourcecode} className="hover-p-tag">
+                                            Source Code
+                                        </a>
+                                        <a target="_blank" href={project.livelink} className="hover-p-tag">
+                                            Live
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>

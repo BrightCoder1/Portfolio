@@ -97,7 +97,8 @@ const Home = () => {
                     <a href="tel:+916398728427" className="contact" ref={btnRef}>Contact Me!</a>
                 </div>
                 <div className="main-2" ref={imgRef}>
-                    <img src="./LogoPNGCrop.png" alt="Image 1" className="m2-img" />
+                    {/* <img src="./LogoPNGCrop.png" alt="Image 1" className="m2-img" /> */}
+                    <img src="./FrontImg1.jpg" alt="Image 1" className="m2-img" />
                 </div>
             </div>
         </>
