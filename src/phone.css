@@ -1,6 +1,6 @@
 .phone-nav {
     font-size: 27px;
-    padding-right: 20px;
+    margin-right: 20px;
 }
 
 .nav-ul {
@@ -67,6 +67,10 @@
 
 
 @media (max-width: 575.98px) {
+    .navbar {
+        position: fixed;
+    }
+
     .main {
         flex-direction: column;
     }
@@ -85,7 +89,7 @@
     }
 
     .main-2 {
-        width: 400px;
+        width: 100%;
         margin-top: 2rem;
     }
 
@@ -151,5 +155,13 @@
 
     .f-form {
         width: 69%;
+    }
+
+    .logo {
+        margin-left: 11px;
+    }
+
+    .navbar {
+        width: 100%;
     }
 }
